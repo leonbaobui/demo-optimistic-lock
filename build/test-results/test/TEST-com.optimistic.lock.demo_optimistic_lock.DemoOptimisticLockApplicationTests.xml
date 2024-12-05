@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.optimistic.lock.demo_optimistic_lock.DemoOptimisticLockApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-05T11:01:16" hostname="Nicks-MacBook-Pro.local" time="0.428">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.optimistic.lock.demo_optimistic_lock.DemoOptimisticLockApplicationTests" time="0.428"/>
+  <system-out><![CDATA[18:01:14.051 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.optimistic.lock.demo_optimistic_lock.DemoOptimisticLockApplicationTests]: DemoOptimisticLockApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:01:14.116 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.optimistic.lock.demo_optimistic_lock.DemoOptimisticLockApplication for test class com.optimistic.lock.demo_optimistic_lock.DemoOptimisticLockApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.0)
+
+2024-12-05T18:01:14.386+07:00  INFO 83112 --- [demo-optimistic-lock] [    Test worker] o.l.d.DemoOptimisticLockApplicationTests : Starting DemoOptimisticLockApplicationTests using Java 17.0.13 with PID 83112 (started by nick in /Users/nick/Developer/demo-simple-spring/demo-optimistic-lock)
+2024-12-05T18:01:14.387+07:00  INFO 83112 --- [demo-optimistic-lock] [    Test worker] o.l.d.DemoOptimisticLockApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-12-05T18:01:14.758+07:00  INFO 83112 --- [demo-optimistic-lock] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-05T18:01:14.791+07:00  INFO 83112 --- [demo-optimistic-lock] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2024-12-05T18:01:15.052+07:00  INFO 83112 --- [demo-optimistic-lock] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-05T18:01:15.086+07:00  INFO 83112 --- [demo-optimistic-lock] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-05T18:01:15.106+07:00  INFO 83112 --- [demo-optimistic-lock] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-05T18:01:15.276+07:00  INFO 83112 --- [demo-optimistic-lock] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-05T18:01:15.294+07:00  INFO 83112 --- [demo-optimistic-lock] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-05T18:01:15.400+07:00  INFO 83112 --- [demo-optimistic-lock] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-12-05T18:01:15.401+07:00  INFO 83112 --- [demo-optimistic-lock] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-05T18:01:15.437+07:00  INFO 83112 --- [demo-optimistic-lock] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-05T18:01:15.917+07:00  INFO 83112 --- [demo-optimistic-lock] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-05T18:01:15.955+07:00  INFO 83112 --- [demo-optimistic-lock] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-05T18:01:16.194+07:00  WARN 83112 --- [demo-optimistic-lock] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-05T18:01:16.441+07:00  INFO 83112 --- [demo-optimistic-lock] [    Test worker] o.l.d.DemoOptimisticLockApplicationTests : Started DemoOptimisticLockApplicationTests in 2.219 seconds (process running for 2.914)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
